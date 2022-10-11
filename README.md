@@ -1,5 +1,8 @@
 # AppGallery Connect Remote Configuration for Flutter
 
+## Note
+It is not original Huawei plugin. This is a fork of https://pub.dev/packages/agconnect_remote_config with support of null safety and ios runtime patch.
+
 ## Introduction
    HUAWEI AppGallery Connect provides the Remote Configuration service for you to manage parameters online. With the service, you can change the behavior and appearance of your app online without requiring users to update the app.
 [Learn More](https://developer.huawei.com/consumer/en/doc/development/AppGallery-connect-Guides/agc-remoteconfig-introduction)
