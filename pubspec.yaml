@@ -1,6 +1,6 @@
 name: agconnect_remote_config
 description: Flutter plugin for AppGallery Connect Remote Config SDK.
-version: 1.2.0+301
+version: 1.9.0+300
 homepage: https://developer.huawei.com/consumer/cn/doc/development/AppGallery-connect-Guides/agc-remoteconfig-introduction
 
 environment:

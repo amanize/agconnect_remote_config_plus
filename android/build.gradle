@@ -4,19 +4,19 @@ version '1.0'
 buildscript {
     repositories {
         google()
-        jcenter()
+        mavenCentral()
         maven {url 'https://developer.huawei.com/repo/'}
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.5.0'
+        classpath 'com.android.tools.build:gradle:8.0.0'
     }
 }
 
 rootProject.allprojects {
     repositories {
         google()
-        jcenter()
+        mavenCentral()
         maven {url 'https://developer.huawei.com/repo/'}
     }
 }
@@ -24,8 +24,8 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 28
-
+    compileSdkVersion 31
+    namespace 'com.huawei.agconnectremoteconfig'
     defaultConfig {
         minSdkVersion 19
     }
@@ -33,6 +33,6 @@ android {
         disable 'InvalidPackage'
     }
     dependencies {
-        implementation  'com.huawei.agconnect:agconnect-remoteconfig:1.4.2.301'
+        implementation  'com.huawei.agconnect:agconnect-remoteconfig:1.9.0.300'
     }
 }
